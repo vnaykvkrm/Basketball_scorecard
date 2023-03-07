@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <div class="home">
+                <h3 id="home-title">HOME</h3>
+                <div class="home-background">
+                    <h3 id="home-score">0</h3>
+                </div>
+                <div id="home-btns">
+                    <button id="one-h" onclick="addonetohomescore()">+1</button>
+                    <button id="two-h" onclick="addtwotohomescore()">+2</button>
+                    <button id="three-h" onclick="addthreetohomescore()">+3</button>
+                </div>
+            </div>
+            <div class="away">
+                <h3 id="away-title">AWAY</h3>
+                <div class="away-background">
+                    <h3 id="away-score">0</h3>
+                </div>
+                <div id="away-btns">
+                    <button id="one-a" onclick="addonetoawayscore()">+1</button>
+                    <button id="two-a" onclick="addtwotoawayscore()">+2</button>
+                    <button id="three-a" onclick="addthreetoawayscore()">+3</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="save">
+        <button id="save-score" onclick="savescore()">save score</button>
+        <p id="saved-score">0-0</p>
+    </div>
+    <script src="function.js"></script>
+</body>
+
+</html>

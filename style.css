@@ -1,0 +1,483 @@
+        @import url('https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css');
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 600px;
+            height: 400px;
+            background: #1B244A;
+            border-radius: 5px;
+        }
+        
+        .subcontainer {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            height: 80%;
+            margin-top: 50px;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        
+        #home-title {
+            color: white;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            height: 40px;
+            width: 130px;
+        }
+        
+        #away-title {
+            color: white;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            height: 40px;
+            width: 130px;
+        }
+        
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .away {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .home-background {
+            width: 155px;
+            height: 120px;
+            background: #080001;
+            border-radius: 5px;
+            padding: 0px;
+            border: 1px white double;
+        }
+        
+        .away-background {
+            width: 155px;
+            height: 120px;
+            background: #080001;
+            border-radius: 5px;
+            padding: 0px;
+            border: 1px white double;
+        }
+        
+        #home-score {
+            width: 155px;
+            height: 133px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 130px;
+            /* or 141% */
+            text-align: center;
+            color: red;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        #away-score {
+            width: 155px;
+            height: 133px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 130px;
+            /* or 141% */
+            text-align: center;
+            color: red;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        #home-btns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 150px;
+            height: 45px;
+            margin-top: 20px;
+        }
+        
+        #away-btns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 150px;
+            height: 45px;
+            margin-top: 20px;
+        }
+        
+        #one-h {
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /*or155%*/
+            text-align: center;
+            color: #9AABD8;
+            background-color: transparent;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        #two-h {
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /* or 155% */
+            text-align: center;
+            color: #9AABD8;
+            background-color: transparent;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        #three-h {
+            background-color: transparent;
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /*or155%*/
+            text-align: center;
+            color: #9AABD8;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        #one-a {
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /*or155%*/
+            text-align: center;
+            color: #9AABD8;
+            background-color: transparent;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        #two-a {
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /* or 155% */
+            text-align: center;
+            color: #9AABD8;
+            background-color: transparent;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        #three-a {
+            background-color: transparent;
+            width: 42px;
+            height: 40px;
+            font-family: 'Cursed Timer ULiL';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 28px;
+            /* or 155% */
+            text-align: center;
+            color: #9AABD8;
+            border: 1px white solid;
+            border-radius: 5px;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        .save {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100px;
+            width: 600px;
+            border: 3px #1B244A solid;
+            border-radius: 5px;
+        }
+        
+        #save-score {
+            height: 35px;
+            width: 85px;
+            background-color: #1B244A;
+            border-radius: 3px;
+            color: white;
+            font-family: 'Verdana';
+            font-style: normal;
+            margin-top: 8px;
+            padding: 0px;
+            cursor: pointer;
+        }
+        
+        p {
+            color: black;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-size: 50px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        @media screen and (max-width:500px) {
+            .container {
+                width: 350px;
+                height: 320px
+            }
+            .save {
+                width: 350px;
+            }
+            .subcontainer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 300px;
+            }
+            #away-title {
+                display: flex;
+                justify-content: center;
+                font-size: 25px;
+                width: 70px;
+                height: 25px;
+            }
+            #home-title {
+                display: flex;
+                justify-content: center;
+                font-size: 25px;
+                width: 70px;
+                height: 25px;
+            }
+            .home {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 125px;
+            }
+            .away {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 125px;
+            }
+            .home-background {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90px;
+                height: 100px;
+                background: #080001;
+                border-radius: 5px;
+                padding: 0px;
+                border: 1px white double;
+            }
+            .away-background {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90px;
+                height: 100px;
+                background: #080001;
+                border-radius: 5px;
+                padding: 0px;
+                border: 1px white double;
+            }
+            #home-score {
+                width: 55px;
+                height: 80px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 80px;
+                line-height: 100px;
+                /* or 141% */
+                text-align: center;
+                color: red;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            #away-score {
+                width: 55px;
+                height: 80px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 80px;
+                line-height: 100px;
+                /* or 141% */
+                text-align: center;
+                color: red;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            #home-btns {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 125px;
+                height: 30px;
+                margin-top: 20px;
+            }
+            #away-btns {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 125px;
+                height: 30px;
+                margin-top: 20px;
+            }
+            #one-h {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /*or155%*/
+                text-align: center;
+                color: #9AABD8;
+                background-color: transparent;
+                border: 1px white solid;
+                border-radius: 3px;
+                margin: 7px;
+                cursor: pointer;
+            }
+            #two-h {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /* or 155% */
+                text-align: center;
+                color: #9AABD8;
+                background-color: transparent;
+                border: 1px white solid;
+                border-radius: 5px;
+                margin: 7px;
+                cursor: pointer;
+            }
+            #three-h {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /*or155%*/
+                text-align: center;
+                color: #9AABD8;
+                border: 1px white solid;
+                border-radius: 5px;
+                margin: 7px;
+                cursor: pointer;
+            }
+            #one-a {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /*or155%*/
+                text-align: center;
+                color: #9AABD8;
+                background-color: transparent;
+                border: 1px white solid;
+                border-radius: 5px;
+                margin: 7px;
+                cursor: pointer;
+            }
+            #two-a {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /* or 155% */
+                text-align: center;
+                color: #9AABD8;
+                background-color: transparent;
+                border: 1px white solid;
+                border-radius: 5px;
+                margin: 7px;
+                cursor: pointer;
+            }
+            #three-a {
+                width: 32px;
+                height: 30px;
+                font-family: 'Cursed Timer ULiL';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                /* or 155% */
+                text-align: center;
+                color: #9AABD8;
+                border: 1px white solid;
+                border-radius: 5px;
+                margin: 7px;
+                cursor: pointer;
+            }
+        }
